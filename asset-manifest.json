@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/miacv/static/css/main.e0c29fef.css",
-    "main.js": "/miacv/static/js/main.5edb7f50.js",
+    "main.js": "/miacv/static/js/main.0ac7a83c.js",
     "index.html": "/miacv/index.html",
     "main.e0c29fef.css.map": "/miacv/static/css/main.e0c29fef.css.map",
-    "main.5edb7f50.js.map": "/miacv/static/js/main.5edb7f50.js.map"
+    "main.0ac7a83c.js.map": "/miacv/static/js/main.0ac7a83c.js.map"
   },
   "entrypoints": [
     "static/css/main.e0c29fef.css",
-    "static/js/main.5edb7f50.js"
+    "static/js/main.0ac7a83c.js"
   ]
 }
