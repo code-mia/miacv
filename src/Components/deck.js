@@ -80,7 +80,7 @@ function Deck(props) {
 
       }
 
-      <animated.div onClick={e => ClickHandler(e)}id={i} {...bind(i)} style={{ backgroundImage: `url(${props.projectList[i].img})`, transform: to([rot, scale], trans),  }} id={i} >
+      <animated.div onClick={e => ClickHandler(e)}id={i} {...bind(i)} style={{ backgroundImage: `url(${process.env.PUBLIC_URL +props.projectList[i].img})`, transform: to([rot, scale], trans),  }} id={i} >
         <div class="noclick" id="cardTitle" >
           <h2>{props.projectList[i].title}</h2>
         </div>

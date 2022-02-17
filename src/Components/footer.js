@@ -10,15 +10,15 @@ function footer() {
     </div>
     <div class="social-links-wrapper">
         <a class="social-link" href="https://github.com/code-mia">
-            <img src="/img/github.png"/>
+            <img src={process.env.PUBLIC_URL +"/img/github.png"}/>
         </a>
 
         <a class="social-link" href="https://www.linkedin.com/in/mia-b-8521721b8/">
-            <img src="/img/linkedin.png"/>
+            <img src={process.env.PUBLIC_URL +"/img/linkedin.png"}/>
         </a>
         
         <a class="social-link" href="mailto:miabenredjeb@gmail.com">
-            <img src="/img/mail.png"/>
+            <img src={process.env.PUBLIC_URL +"/img/mail.png"}/>
         </a>
     </div>
 

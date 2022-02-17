@@ -11,7 +11,7 @@ const Diapo = (props) => {
             console.log(props.tab[i])
             return (
                 
-            <div key={key} className="each-slide"><img src={props.tab[i]}/></div>
+            <div key={key} className="each-slide"><img src={process.env.PUBLIC_URL + props.tab[i]}/></div>
         );})}
     
 

@@ -70,13 +70,14 @@ const Projects = () => {
   return (
   <div id="projects">
       <h4>Projets</h4>
-      <div id="leftbox"><img onClick={() => rightPage()} src="/img/leftarrow.png"/></div>
+      <img class="arrowTitle" src={process.env.PUBLIC_URL +"/img/arrow.png"}></img>
+      <div id="leftbox"><img onClick={() => rightPage()} src={process.env.PUBLIC_URL +"/img/leftarrow.png"}/></div>
       <div id="cards">
         
     <Deck pro={pro} setCardNumber={setCardNumber} pageNumber={pageNumber} cardNumber={cardNumber} projectList = {projectList} setProjectList={setProjectList} set={set} parentCallback = {handleCallback}/>
     
     </div>
-    <div id="rightbox"><img onClick={() => leftPage()} src="/img/rightArrow.png"/></div>
+    <div id="rightbox"><img onClick={() => leftPage()} src={process.env.PUBLIC_URL +"/img/rightArrow.png"}/></div>
     <ProjectDetail trigger ={trig.click} project={trig.project} close={close}/> 
     
   </div>

@@ -3,7 +3,7 @@
     return project.tag.map((url,i) => (
       <div key={i}>
          
-        <img src={url} />
+        <img src={process.env.PUBLIC_URL +url} />
         
       </div>
     ));

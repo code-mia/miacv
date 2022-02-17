@@ -18,9 +18,8 @@ h4 {
   text-align: center;
   margin:auto;
 }
-h4::after {
+.arrowTitle {
   width: max-content;
-  content: "\25CF\2015\2015\2015\2015\2015\1F892";
   display: block;
   margin:auto;
   letter-spacing: -0.5vh;
@@ -125,7 +124,7 @@ ul li a {
   flex-wrap: wrap;
 
 }
-.hIkIRw {
+.lnbcJC {
   background: transparent !important;
 }
 #education {

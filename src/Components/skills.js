@@ -24,14 +24,14 @@ const Skills = () => {
         content:
           '',
       },
-      icon: '/img/skills/css.png',
+      icon: process.env.PUBLIC_URL +'/img/skills/css.png',
       children: [{ id: 'sass',
       title: 'Scss',
       tooltip: {
         content:
           '',
       },
-      icon: '/img/skills/sass.png',
+      icon: process.env.PUBLIC_URL +'/img/skills/sass.png',
       children: []}]},{
             
             id: 'html',
@@ -40,7 +40,7 @@ const Skills = () => {
               content:
                 '',
             },
-            icon: '/img/skills/html.png',
+            icon: process.env.PUBLIC_URL +'/img/skills/html.png',
             children: [
               {
                
@@ -50,7 +50,7 @@ const Skills = () => {
                     content:
                       '',
                   },
-                  icon: '/img/skills/js.png',
+                  icon: process.env.PUBLIC_URL +'/img/skills/js.png',
                   children: [{
                     id: 'php',
                     title: 'PHP',
@@ -58,7 +58,7 @@ const Skills = () => {
                       content:
                         '',
                     },
-                    icon: '/img/skills/php.png',
+                    icon: process.env.PUBLIC_URL +'/img/skills/php.png',
                     children: [],
                     }],
                   }
@@ -73,7 +73,7 @@ const Skills = () => {
                 content:
                   '',
               },
-              icon: '/img/skills/symfony.png',
+              icon: process.env.PUBLIC_URL +'/img/skills/symfony.png',
               children: [],
               },
               {
@@ -83,7 +83,7 @@ const Skills = () => {
                   content:
                     '',
                 },
-                icon: '/img/skills/node.png',
+                icon: process.env.PUBLIC_URL +'/img/skills/node.png',
                 children: [{
                   id: 'express',
                   title: 'Express',
@@ -91,7 +91,7 @@ const Skills = () => {
                     content:
                       '',
                   },
-                  icon: '/img/skills/express.png',
+                  icon: process.env.PUBLIC_URL +'/img/skills/express.png',
                   children: [],
                   }],
                 },
@@ -102,7 +102,7 @@ const Skills = () => {
                     content:
                       '',
                   },
-                  icon: '/img/skills/react.png',
+                  icon: process.env.PUBLIC_URL +'/img/skills/react.png',
                   children: [],
                   }
         ],
@@ -125,7 +125,7 @@ const Skills = () => {
             content:
               '',
           },
-          icon: '/img/skills/unity.png',
+          icon: process.env.PUBLIC_URL +'/img/skills/Unity.png',
           children: [{
             id: 'ue',
             title: 'Unreal Engine',
@@ -134,7 +134,7 @@ const Skills = () => {
               content:
                 '',
             },
-            icon: '/img/skills/ue.png',
+            icon: process.env.PUBLIC_URL +'/img/skills/ue.png',
             children: [],
           }, ],
         }, {
@@ -145,7 +145,7 @@ const Skills = () => {
             content:
               '',
           },
-          icon: '/img/skills/photoshop.png',
+          icon: process.env.PUBLIC_URL +'/img/skills/photoshop.png',
           children: [{
             id: 'figma',
             title: 'Figma',
@@ -154,7 +154,7 @@ const Skills = () => {
               content:
                 '',
             },
-            icon: '/img/skills/figma.png',
+            icon: process.env.PUBLIC_URL +'/img/skills/figma.png',
             children: [{
               id: 'blender',
               title: 'Blender',
@@ -163,7 +163,7 @@ const Skills = () => {
                 content:
                   '',
               },
-              icon: '/img/skills/blender.png',
+              icon: process.env.PUBLIC_URL +'/img/skills/blender.png',
               children: [],
             }],
           }, ],
@@ -175,7 +175,7 @@ const Skills = () => {
             content:
               '',
           },
-          icon: '/img/skills/mysql.png',
+          icon: process.env.PUBLIC_URL +'/img/skills/mysql.png',
           children: [],
         },{
           id: 'linux',
@@ -185,7 +185,7 @@ const Skills = () => {
             content:
               '',
           },
-          icon: '/img/skills/linux.png',
+          icon: process.env.PUBLIC_URL +'/img/skills/linux.png',
           children: [],
         },{
           id: 'github',
@@ -195,7 +195,7 @@ const Skills = () => {
             content:
               '',
           },
-          icon: '/img/skills/github.png',
+          icon: process.env.PUBLIC_URL +'/img/skills/github.png',
           children: [{
             id: 'gitlab',
             title: 'Gitlab',
@@ -204,7 +204,7 @@ const Skills = () => {
               content:
                 '',
             },
-            icon: '/img/skills/gitlab.png',
+            icon: process.env.PUBLIC_URL +'/img/skills/gitlab.png',
             children: [],
           }],
         },],
@@ -225,7 +225,7 @@ const Skills = () => {
                   content:
                     '',
                 },
-                icon: '/img/skills/python.png',
+                icon: process.env.PUBLIC_URL +'/img/skills/python.png',
                 children: [{
                   id: 'java',
                   title: 'Java',
@@ -233,7 +233,7 @@ const Skills = () => {
                     content:
                       '',
                   },
-                  icon: '/img/skills/java.png',
+                  icon: process.env.PUBLIC_URL +'/img/skills/java.png',
                   children: [{
                     id: 'csharp',
                     title: 'C#',
@@ -241,7 +241,7 @@ const Skills = () => {
                       content:
                         '',
                     },
-                    icon: '/img/skills/csharp.png',
+                    icon: process.env.PUBLIC_URL +'/img/skills/csharp.png',
                     children: [{
                       id: 'cpp',
                       title: 'C++',
@@ -249,7 +249,7 @@ const Skills = () => {
                         content:
                           '',
                       },
-                      icon: '/img/skills/cpp.png',
+                      icon: process.env.PUBLIC_URL +'/img/skills/cpp.png',
                       children: [],
                       }],
                     }],
@@ -260,6 +260,7 @@ const Skills = () => {
   return (
   <div id="skills">
       <h4>Compétences</h4>
+      <img class="arrowTitle" src={process.env.PUBLIC_URL +"/img/arrow.png"}></img>
       <div id="skillsTree">
   <SkillTreeGroup theme={{border:'0px',treeBackgroundColor: '#493323a1',tooltipBackgroundColor: '#d1a389',nodeBackgroundColor: '#5b3e29',nodeActiveBackgroundColor: '#89674e',nodeOverlayColor: 'white',nodeHoverBorderColor: ' linear-gradient(#e9ac67, #e9ac67)',nodeBorderColor:'#493323a1'}}>
     {({ skillCount }: SkillGroupDataType) => (

@@ -1,7 +1,7 @@
 {
   "name": "miacv",
   "version": "0.1.0",
-  "homepage": "https://code-mia.github.io/miacv",
+  "homepage": "https://code-mia.github.io",
   "private": true,
   "dependencies": {
     "@babel/preset-react": "^7.16.7",
