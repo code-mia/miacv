@@ -262,7 +262,7 @@ const Skills = () => {
       <h4>Compétences</h4>
       <img class="arrowTitle" src={process.env.PUBLIC_URL +"/img/arrow.png"}></img>
       <div id="skillsTree">
-  <SkillTreeGroup theme={{border:'0px',treeBackgroundColor: '#493323a1',tooltipBackgroundColor: '#d1a389',nodeBackgroundColor: '#5b3e29',nodeActiveBackgroundColor: '#89674e',nodeOverlayColor: 'white',nodeHoverBorderColor: ' linear-gradient(#e9ac67, #e9ac67)',nodeBorderColor:'#493323a1'}}>
+  <SkillTreeGroup theme={{border:'0px',treeBackgroundColor: '#493323a1',tooltipBackgroundColor: '#d1a389',nodeBackgroundColor: '#7c593f',nodeActiveBackgroundColor: '#89674e',nodeOverlayColor: 'white',nodeHoverBorderColor: ' linear-gradient(#e9ac67, #e9ac67)',nodeBorderColor:'#493323a1'}}>
     {({ skillCount }: SkillGroupDataType) => (
       <SkillTree
         treeId="first-tree"
@@ -273,7 +273,7 @@ const Skills = () => {
       
     )}
   </SkillTreeGroup>
-  <SkillTreeGroup theme={{border:'0px',treeBackgroundColor: '#493323a1',tooltipBackgroundColor: '#d1a389',nodeBackgroundColor: '#5b3e29',nodeActiveBackgroundColor: '#89674e',nodeOverlayColor: 'white',nodeHoverBorderColor: ' linear-gradient(#e9ac67, #e9ac67)',nodeBorderColor:'#493323a1'}}>
+  <SkillTreeGroup theme={{border:'0px',treeBackgroundColor: '#493323a1',tooltipBackgroundColor: '#d1a389',nodeBackgroundColor: '#7c593f',nodeActiveBackgroundColor: '#89674e',nodeOverlayColor: 'white',nodeHoverBorderColor: ' linear-gradient(#e9ac67, #e9ac67)',nodeBorderColor:'#493323a1'}}>
     {({ skillCount }: SkillGroupDataType) => (
       <SkillTree
         treeId="first-tree"
@@ -284,7 +284,7 @@ const Skills = () => {
       
     )}
   </SkillTreeGroup>
-  <SkillTreeGroup theme={{border:'0px',treeBackgroundColor: '#493323a1',tooltipBackgroundColor: '#d1a389',nodeBackgroundColor: '#5b3e29',nodeActiveBackgroundColor: '#89674e',nodeOverlayColor: 'white',nodeHoverBorderColor: ' linear-gradient(#e9ac67, #e9ac67)',nodeBorderColor:'#493323a1'}}>
+  <SkillTreeGroup theme={{border:'0px',treeBackgroundColor: '#493323a1',tooltipBackgroundColor: '#d1a389',nodeBackgroundColor: '#7c593f',nodeActiveBackgroundColor: '#89674e',nodeOverlayColor: 'white',nodeHoverBorderColor: ' linear-gradient(#e9ac67, #e9ac67)',nodeBorderColor:'#493323a1'}}>
     {({ skillCount }: SkillGroupDataType) => (
       <SkillTree
         treeId="first-tree"
